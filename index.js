@@ -313,4 +313,12 @@ Bot.on("message", function(message){
     }
 });
 
+// WAZA - Mettre a jour (1 min) le role des personnes en fonction de leur rang overwatch
+function updateRoleOW() {
+    console.log("cool\n");
+}
+
+setInterval(updateRoleOW, 60000);
+
+
 Bot.login("MzY0ODI1MjUyMDI0NDE4MzE1.DLYyag.zeqYk8QvtzbDhZg1bYXXWqrHtOA");
